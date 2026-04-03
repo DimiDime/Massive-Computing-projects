@@ -1,21 +1,61 @@
-The main objective of this course is to train analysts in data science, either for research or the labor market, using the latest techniques applied in machine learning.
-1- using the resources of common computers, 
-2-hybrid programming: using the resources of a normal computer and specific hardware such as graphics processing units (GPUs).
-3- distributed and cloud programming, for big cases, such as Big Data.
+# Massive Computing
 
+This repository contains work related to parallel and distributed programming techniques applied to data science and machine learning.
 
-Parallel Programming
-* Multiprocessor/Multicore Programming.
-* Parallel Programming with Shared Memory (and the dangers for data)
-* Parallel Programming with Shared Memory with traffic lights and locking
+The focus is on leveraging modern computing paradigms to efficiently process large-scale data and train machine learning models.
 
-Hybrid Programming
-* Use of GPUs and how they differ from ordinary computer processors.
-* How GPUs are programmed: when and how they can be used.
-* Use of advanced GPU programming techniques, and GPU resource management.
-* How to use GPUs in Machine Learning.
+---
 
-Distributed Programming
-* What is distributed computing and how can we take advantage of it?
-* Use of distributed programming platforms for big data and Machine Learning.
-* Use cases of Apache Spark for machine learning.
+## Objectives
+
+- Apply machine learning techniques using modern computing resources  
+- Understand performance trade-offs across different computing paradigms  
+- Explore scalable solutions for data-intensive problems  
+
+---
+
+## Computing Paradigms Covered
+
+### 1. Parallel Programming (CPU)
+- Multiprocessor and multicore programming  
+- Shared memory architectures  
+- Synchronization techniques (locks, semaphores)  
+- Managing race conditions and data consistency  
+
+---
+
+### 2. Hybrid Programming (CPU + GPU)
+- Fundamentals of GPU architecture vs CPU  
+- When and how to use GPUs effectively  
+- GPU programming techniques and resource management  
+- Applications of GPUs in machine learning workflows  
+
+---
+
+### 3. Distributed Programming
+- Principles of distributed computing  
+- Scaling machine learning for large datasets  
+- Introduction to big data frameworks  
+
+---
+
+## Technologies & Tools
+
+- Python  
+- GPU computing (CUDA / relevant frameworks)  
+- Apache Spark  
+- Distributed computing environments  
+
+---
+
+## Use Cases
+
+- Large-scale data processing  
+- Distributed machine learning pipelines  
+- Performance optimization for compute-intensive tasks  
+
+---
+
+## Summary
+
+This project explores how modern computing infrastructure — from multicore CPUs to GPUs and distributed systems — can be leveraged to scale machine learning and data science applications efficiently.
